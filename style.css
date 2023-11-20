@@ -1,0 +1,187 @@
+@media screen and (max-width: 480px) {
+    #navigation a {
+      float: none;
+      width: 100%;
+    }
+  }
+@media screen and (max-width: 1280px) {
+    #navigation {
+        font-size: x-large;
+    }
+
+}
+@media print {
+    img {
+      image-resolution: 300dpi;
+    }
+  }
+
+
+
+
+
+.main-container {
+    padding: 10em;
+    border-radius: 20px;
+    
+}
+.header-container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#navigation {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    gap: 60px;
+    margin-left: 30em;
+    overflow: hidden;
+    font-size: larger;
+}
+#navigation a {
+    text-decoration: none;
+    color: black;
+    float: right;
+}
+
+#navigation button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-left: 40em;
+    font-size: x-large;
+}
+
+.logo {
+    display: inline-flex;
+}
+
+.logo img {
+    width: 50px;
+}
+.logo p{
+    font-size: 20px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "part1 part1 part1 part1-a part1-b"
+        "part1 part1 part1 part1-a part1-b"
+        "part2 part2 part5 part6 part6"
+        "part2 part2 part5 part6 part6"
+        "part3 part4 part5 part7 part7"
+        "part3 part4 part5 part7 part7"
+    ;
+    gap: 20px;
+    padding-top: 50px;
+    
+}
+
+.part1 {
+    grid-area: part1;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.part1 h1 {
+    font-size: 100px;
+}
+.part1 p{
+    font-size: 25px;
+}
+
+.part1-a {
+    grid-area: part1-a;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    align-content: center;
+}
+
+.part1-b {
+    grid-area: part1-b;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.part2 {
+    grid-area: part2;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.part3 {
+    grid-area: part3;
+    background-color: rgb(0, 89, 255);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.part4 {
+    grid-area: part4;
+    background-color: rgb(255, 123, 0);
+    border-radius: 20px;
+    padding: 20px
+}
+   
+.part5 {
+    grid-area: part5;
+    background-color: rgb(128, 128, 128);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.inner-grid {
+    display: grid;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+
+.part5 button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.part6 {
+    grid-area: part6;
+    background-color: rgb(255, 123, 0);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: xx-large;
+}
+.pie {
+    position: absolute;
+    right: 60%;
+    top: 70%;
+}
+
+.ai {
+    position: absolute;
+    right: 300px;
+    top: 950px;
+    
+    
+    
+}
+.part7 {
+    grid-area: part7;
+    background-color: rgb(0, 89, 255);
+    border-radius: 20px;
+    padding: 20px;
+}
